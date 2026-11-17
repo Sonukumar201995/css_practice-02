@@ -1,8 +1,5 @@
-p{
-    text-align: center;
-    text-decoration: underline;
-    font-weight: bold;
-    font-family: cursive;
-    font-size: 20px;
-    line-height: normal;
+div{
+    height: 50px;
+    width: 80px;
+    background-color: red;
 }
