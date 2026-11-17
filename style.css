@@ -1,5 +1,6 @@
 div{
     height: 50px;
     width: 80px;
-    background-color: red;
+    background-color: pink;
+    border: 2px solid black;
 }
