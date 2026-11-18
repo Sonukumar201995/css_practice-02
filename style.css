@@ -1,14 +1,13 @@
-#box1{
+div
+{
     height: 100px;
     width: 100px;
-    background-color: pink;
-    font-size: 10px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
 }
-
 #box2
 {
-    height: 50px;
-    width: 100%;
-    background-color: rebeccapurple;
-    font-size: 3rem;
+    position: relative;
+    top: 20px;
 }
