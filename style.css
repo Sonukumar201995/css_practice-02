@@ -1,13 +1,44 @@
+body{
+    text-align: center;
+}
+
 div
 {
     height: 100px;
     width: 100px;
-    background-color: aqua;
     border: 2px solid black;
     display: inline-block;
 }
+
+#container
+{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+#box1{
+    background-color: antiquewhite;
+}
+
 #box2
 {
-    position: relative;
-    top: 20px;
+    background-color: aqua;
 }
+
+#box3{
+    background-color: blue;
+}
+
+#box4
+{
+    background-color: brown;
+}
+
+#box5
+{
+    background-color: blueviolet;
+}
+
