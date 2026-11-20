@@ -5,10 +5,7 @@ div {
     background-color: aqua;
     border: 2px solid black;
 
-    transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function: ease-in;
-    transition-delay: 2s;
+   transform: rotate(45deg);
 }
 
 div:hover {
