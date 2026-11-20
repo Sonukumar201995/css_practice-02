@@ -12,7 +12,7 @@ div:hover {
     background-color: pink;
     color: white;
     font-size: 20px;
-    transform: translate(20px,50px);
+    transform: skew(30deg);
 }
 
 div:active {
