@@ -5,7 +5,8 @@ div {
     background-color: aqua;
     border: 2px solid black;
 
-   transform: rotate(45deg);
+   /* transform: rotate(45deg); */
+   transform: scale(1,2);
 }
 
 div:hover {
