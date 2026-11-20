@@ -16,8 +16,9 @@ div {
 
 
 @keyframes colorBackground{
-    from{background-color: aqua;}
-    to{background-color: red;}
+    0%{background-color: aqua;}
+    50%{background-color: red;}
+    100%{background-color: yellow;}
 }
 
 
