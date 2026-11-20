@@ -6,9 +6,23 @@ div {
     border: 2px solid black;
 
    /* transform: rotate(45deg); */
+   animation: colorBackground;
+   animation-duration: 3s;
+   animation-timing-function: ease-in;
+   animation-iteration-count: 5;
+   animation-delay: 1s;
+   animation-direction: reverse;
 }
 
-div:hover {
+
+@keyframes colorBackground{
+    from{background-color: aqua;}
+    to{background-color: red;}
+}
+
+
+
+/* div:hover {
     background-color: pink;
     color: white;
     font-size: 20px;
@@ -17,4 +31,4 @@ div:hover {
 
 div:active {
     background-color: yellow;
-}
+} */
